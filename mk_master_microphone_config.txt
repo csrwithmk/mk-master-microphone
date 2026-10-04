@@ -2,7 +2,21 @@
 false
 
 [VERSION]
-1.0
+1.1
 
 [WHATSNEW]
+Fixed: Pehle agar aap microphone mute karte the aur phir koi call ya voice note record karta, to microphone khud-ba-khud unmute ho jata tha. Ab aisa nahi hoga - microphone muted hi rahega jab tak aap khud unmute na karein.
 
+TTS Settings ab Settings mein ek hi button hai, jiske andar teen combo box hain - Engine, Volume Source, aur Rate.
+
+TTS Volume Source: Jab koi dusra TTS select karo, to ab uska volume aapke phone ke Accessibility, Media, ya Notification volume mein se jo bhi chuno, usi se reliably match karega.
+
+TTS Rate ab asal mein kaam karti hai: ek saaf 5 se 100 tak ki scale (5-5 ki category mein) se awaaz ki raftar choose kar sakte hain - 100 sabse tez, 5 sabse slow.
+
+Mic Menu se 'Check Mic Permission' hata diya gaya - kaam ki cheez nahi thi.
+
+Settings ke end mein 'Reset All Settings to Default' add hui.
+
+TTS Settings mein ab 'Test' button hai - aapki asal Mute/Unmute announcement, abhi select ki gayi TTS settings se sunwa deta hai, bina asal mic chhue.
+
+Double-Tap Window ab Settings se customize kar sakte hain (0.7 se 2 second tak) - default 1 second hi hai.
